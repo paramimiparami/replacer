@@ -59,6 +59,7 @@ class Replacer():
                     i = 0
 
                     if not temp:
+                        i += 1
                         continue
                     bucket = []
                     if j < len_splitted:
